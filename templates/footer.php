@@ -1,47 +1,40 @@
 
       <!-- FOOTER -->
       <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-3 mx-auto">
-                    <div class="single-box">
-                        <h2>Acceso rápido</h2>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="../views/Agendar_cita.php">Agendar cita</a></li>
-                        <li><a href="../views/ver_producto_general.php">Productos</a></li>
-                    </ul>
-                    </div>                    
-                </div>
-                <div class="col-lg-3 col-sm-3 mx-auto">
-                    <div class="single-box">
-                        <h2>Extra links</h2>
-                    <ul>
-                        <li><a href="../views/perfil2.php">Mi cuenta</a></li>
-                        <li><a href="../views/mis_ordenes.php">Mis ordenes</a></li>
-                        <li><a href="../views/mis_citas.php">Mis citas</a></li>
-                    </ul>
-                    </div>                    
-                </div>
-                <div class="col-lg-3 col-sm-3 mx-auto">
-                    <div class="single-box">
-                        <h2>Información de contacto</h2>
-                        <ul>
-                        <li><a href="https://www.facebook.com/Dulcsalon?mibextid=ZbWKwL" target="_blank">Facebook <i class="bi bi-facebook"></i></a></li>
-                        <li><a href="mailto:sweetbeautyutt@gmail.com" target="_blank">SweetBeautyUtt@gmail.com <i class="bi bi-envelope-heart"></i></a></li>
-                        <li><a href="https://www.google.com/maps?q=25.602931834354884,-103.37203726085112" target="_blank">Ubicación <i class="bi bi-geo-alt"></i></a></li>
-                    </ul>
-                        <p></p>
-                        <a href=""></a>
-                        <p> </a>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 mx-auto">
+          <div class="single-box">
+            <h2>Acceso rápido</h2>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="views/ver_producto_general.php">Productos</a></li>
+              <li><a href="views/nosotros.php">Nosotros</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="credit text-center">Creado por <span>Carlos, José, Erick, Lizeth, Fernando</span> | all rigth reserve.</div>
-        <div style="font-size: 9px;" class="m-1 text-center"><i class="bi bi-c-circle"></i>2023-2023, SweetBeauty.com, Inc. o sus afiliados.</div>
-    </footer>
+        <div class="col-lg-3 col-sm-3 mx-auto">
+          <div class="single-box">
+            <h2>Información de contacto</h2>
+            <ul>
+              <li><a href="https://www.facebook.com/people/Fernando-Yael/pfbid02qhtaPLddVTbN2t7U9xi1Hber32pbKnBNsuZUoxUVhrgMdp6A5gSutPyd9xtheBbal/" target="_blank">Facebook <i class="bi bi-facebook"></i></a></li>
+              <li><a href="mailto:cafetacvba@gmail.com" target="_blank">CAFEtavuca@gmail.com <i class="bi bi-envelope-heart"></i></a></li>
+              <li><a href="https://www.google.com/maps?q=25.55673929674272,-103.36108547713413" target="_blank">Ubicación <i class="bi bi-geo-alt"></i></a></li>
+            </ul>
+            <p></p>
+            <a href=""></a>
+            <p> </a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="credit text-center">Creado por <span>
+        <a style="color:#e84393;text-decoration: none;"" href=" https://www.instagram.com/jose_durann_/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank">José</a>,
+        <a style="color:#e84393;text-decoration: none;"" href=" https://www.instagram.com/iceli.ts/" target=" _blank">Lizeth</a>,
+        <a style="color:#e84393;text-decoration: none;"" href=" https://www.instagram.com/nael.php/" target=" _blank">Fernando</a></span> | all rigth reserve.</div>
+    <div style="font-size: 9px;" class="m-1 text-center"><i class="bi bi-c-circle"></i>2023-2023, CAFEtacvba.com, Inc. o sus afiliados.</div>
+  </footer>
       <!-- FIN DE FOOTER -->
 
       <!-- SCRIPTS -->
@@ -74,7 +67,7 @@
 
 
         window.addEventListener("focus", function() {
-          cambiarTituloPestana("Sweet Beauty");
+          cambiarTituloPestana("CAFÉ tacvba");
         });
 
 

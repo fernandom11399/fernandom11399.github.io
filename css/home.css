@@ -1,5 +1,5 @@
 :root {
-  --rosaa: #e84393;
+  --rosaa: #740938;
 }
 
 .icons a {
@@ -135,14 +135,31 @@ input:hover {
 
 /* BANNER */
 .banner {
+  position: relative;
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(../img/home/ej7.jpg) no-repeat;
+  background: url(../img/home/banner.jpeg) no-repeat;
   background-size: cover;
-  backdrop-filter: blur(20px);
   background-position: center center;
 }
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Ajusta el nivel de oscuridad */
+  z-index: 1;
+}
+
+.banner * {
+  position: relative;
+  z-index: 2;
+}
+
 
 .banner h3 {
   margin-top: 5rem;
@@ -209,7 +226,7 @@ input[type="radio"]:checked + label
   color: #333;
   padding: 1rem;
   margin: 2rem 0;
-  background: rgba(255, 51, 153, 0.05);
+  background: #ffefef
 }
 
 .heading span {
@@ -272,6 +289,10 @@ input[type="radio"]:checked + label
   padding: 1rem 2rem;
   text-align: center;
   mix-blend-mode: screen;
+}
+
+.pro {
+  height: 50rem;
 }
 
 /* PRODUCTOS */

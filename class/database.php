@@ -2,9 +2,9 @@
     class database
     {
         private $PDOLocal;
-        private $user = "admin";
-        private $password = "1234";
-        private $server = "mysql:host=localhost; dbname=sweet_beauty; charset=utf8";
+        private $user = "root";
+        private $password = "";
+        private $server = "mysql:host=localhost:3309; dbname=sweet_beauty; charset=utf8";
 
         function conectarDB()
         {
