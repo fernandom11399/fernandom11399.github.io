@@ -167,6 +167,7 @@ input:hover {
   color: #fff;
   font-size: 4rem;
   font-weight: bold;
+  font-display: swap; 
 }
 
 .banner span {
