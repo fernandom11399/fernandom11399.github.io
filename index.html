@@ -22,7 +22,7 @@
     <div class="container">
       <!-- LOGO -->
       <!-- DURAAAANNNNNNNNNNNNNn -->
-      <a class="navbar-brand logo fs-2 " href="index.php">
+      <a class="navbar-brand logo fs-2 " href="index.html">
         <img src="img/home/logo.png" class="logooo">
         <span>CAFÉ </span>tacvba
       </a>
@@ -41,13 +41,10 @@
         <div class="offcanvas-body d-flex flex-column flex-lg-row">
           <ul class="navbar-nav justify-content-center flex-grow-0 pe-3 align-items-center fa-bars">
             <li class="nav-item mx-2">
-              <a class="nav-link" href="index.php">Inicio</a>
-            </li><!-- 
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="views/ver_producto_general.php">Productos</a>
-            </li> -->
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="views/nosotros.php">Nosotros</a>
+              <a class="nav-link" href="views/nosotros.html">Nosotros</a>
             </li>
           </ul>
 
@@ -83,10 +80,10 @@
                     <div class="card-body text-center">
                         <div class="icons card-title"></div>
                         <div class="card-text">
-                          <a href="views/arabica.php"><h4 class="product-title">Arabica</h4></a>
+                          <a href="views/arabica.html"><h4 class="product-title">Arabica</h4></a>
                         </div>
                         
-                        <a style="margin: auto;" href="views/arabica.php"><img href class="card-img-top pro" src="img/cafe/arabica.png" alt="Cafe arabico"></a>
+                        <a style="margin: auto;" href="views/arabica.html"><img href class="card-img-top pro" src="img/cafe/arabica.png" alt="Cafe arabico"></a>
                     </div>
                 </div>
       </div>
@@ -96,24 +93,10 @@
                     <div class="card-body text-center">
                         <div class="icons card-title"></div>
                         <div class="card-text">
-                          <a href="views/robusta.php"><h4 class="product-title">Robusta</h4></a>
+                          <a href="views/robusta.html"><h4 class="product-title">Robusta</h4></a>
                         </div>
 
-                        <a style="margin: auto;" href="views/robusta.php"><img href class="card-img-top pro" src="img/cafe/robusta.png" alt="Café Robusto"></a>
-
-                    </div>
-                </div>
-      </div>
-
-      <div class="col-lg-3 col-sm-6 grande chico" style="margin-top: 5px; margin-top:2rem;">
-                <div class="card" style="height: 270px;">
-                    <div class="card-body text-center">
-                        <div class="icons card-title"></div>
-                        <div class="card-text">
-                          <a href="views/liberica.phpp"><h4 class="product-title">Liberica</h4></a>
-                        </div>
-
-                        <a style="margin: auto;" href="views/liberica.php"><img href class="card-img-top pro" src="img/cafe/liberico.png" alt="Café Liberico"></a>
+                        <a style="margin: auto;" href="views/robusta.html"><img href class="card-img-top pro" src="img/cafe/robusta.png" alt="Café Robusto"></a>
 
                     </div>
                 </div>
@@ -124,10 +107,24 @@
                     <div class="card-body text-center">
                         <div class="icons card-title"></div>
                         <div class="card-text">
-                          <a href="views/excelsa.php"><h4 class="product-title">Excelsa</h4></a>
+                          <a href="views/liberica.htmlp"><h4 class="product-title">Liberica</h4></a>
                         </div>
 
-                        <a style="margin: auto;" href="views/excelsa.php"><img href class="card-img-top pro" src="img/cafe/excelsa.jpg" alt="Café Excelso"></a>
+                        <a style="margin: auto;" href="views/liberica.html"><img href class="card-img-top pro" src="img/cafe/liberico.png" alt="Café Liberico"></a>
+
+                    </div>
+                </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 grande chico" style="margin-top: 5px; margin-top:2rem;">
+                <div class="card" style="height: 270px;">
+                    <div class="card-body text-center">
+                        <div class="icons card-title"></div>
+                        <div class="card-text">
+                          <a href="views/excelsa.html"><h4 class="product-title">Excelsa</h4></a>
+                        </div>
+
+                        <a style="margin: auto;" href="views/excelsa.html"><img href class="card-img-top pro" src="img/cafe/excelsa.jpg" alt="Café Excelso"></a>
 
                     </div>
                 </div>
@@ -161,8 +158,7 @@
             <h2>Acceso rápido</h2>
             <ul>
               <li><a href="#">Inicio</a></li>
-              <li><a href="views/ver_producto_general.php">Productos</a></li>
-              <li><a href="views/nosotros.php">Nosotros</a></li>
+              <li><a href="views/nosotros.html">Nosotros</a></li>
             </ul>
           </div>
         </div>
@@ -231,28 +227,6 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/listas.js"></script>
-  <script>
-    const enlaces = document.querySelectorAll(".tcategoria");
-
-    enlaces.forEach(enlace => {
-      enlace.addEventListener("click", function(event) {
-        event.preventDefault();
-        const valor = this.innerText;
-        const form = document.createElement("form");
-        form.action = "scripts/verproductos_cat.php";
-        form.method = "post";
-
-        const input = document.createElement("input");
-        input.type = "hidden";
-        input.name = "tip_cater";
-        input.value = valor;
-        form.appendChild(input);
-
-        document.body.appendChild(form);
-        form.submit();
-      });
-    });
-  </script>
 </body>
 
 </html>
