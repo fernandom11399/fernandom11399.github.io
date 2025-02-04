@@ -522,6 +522,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .logooo {
+    width: 2rem;
+  }
   .banner h3 {
     margin-top: 5rem;
     font-size: 3rem;
@@ -551,6 +554,9 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .logooo {
+    width: 2rem;
+  }
   .single-box {
     margin-bottom: 50px;
   }  
